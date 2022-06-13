@@ -15,3 +15,4 @@ https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoCol
 ## Projects
 
 - Project 1 : Using HTML created personal site - https://d3schizatorul.github.io/Web-Development-Bootcamp/01_HTML/
+- Project 2 : Intro to CSS - https://d3schizatorul.github.io/Web-Development-Bootcamp/03_CSS_Intermediate/
