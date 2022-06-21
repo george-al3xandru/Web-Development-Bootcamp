@@ -18,4 +18,5 @@ https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoCol
 - Project 2: Building website with HTML and CSS - https://d3schizatorul.github.io/Web-Development-Bootcamp/03_CSS_Intermediate/
 - Project 3: Building website using Bootstrap - https://d3schizatorul.github.io/Web-Development-Bootcamp/04_Bootstrap/
 - Project 4: Dice Game - HTML, CSS, JS - https://d3schizatorul.github.io/Web-Development-Bootcamp/05_JavaScript/Dicee_Challenge
-- Project 4: Drum Kit - HTML, CSS, JS - https://d3schizatorul.github.io/Web-Development-Bootcamp/05_JavaScript/Drum_Kit
+- Project 5: Drum Kit - HTML, CSS, JS - https://d3schizatorul.github.io/Web-Development-Bootcamp/05_JavaScript/Drum_Kit
+- Project 6: Simon Game - JS, jQuery - https://d3schizatorul.github.io/Web-Development-Bootcamp/06_jQuery/Simon_Game_Challenge/
