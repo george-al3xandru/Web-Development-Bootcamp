@@ -19,10 +19,3 @@
 ### Installing body-parser
 
 ![210088686_246994916878012_2539439958694356646_n - Copy - Copy - Copy](https://user-images.githubusercontent.com/106253049/175299811-2fe4ad8d-6420-4e72-b8eb-7b35b63cb793.png)
-
-
----
-
-### BMI Caulculator
-
-![Animations](https://user-images.githubusercontent.com/106253049/175297932-403ce819-14d8-431b-a20d-c87df0b7508a.gif)
