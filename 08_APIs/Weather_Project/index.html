@@ -3,14 +3,31 @@
 <head>
   <meta charset="utf-8">
   <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
+  <div class="heading">
+    <h1>Search your city</h1>
+    <img class="top-cloud vert-move" src="images/cloud.png" alt="cloud=img">
+    <img class="bottom-cloud vert-move" src="images/cloud.png" alt="cloud=img">
+  </div>
   <form action="/" method="post">
-    <label for="cityInput">City Name: </label>
-    <input id="cityInput" type="text" name="cityName">
-    <button type="submit">Go</button>
+    <div class="container h-100">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="cityName" autocomplete="off" placeholder="Enter City Name">
+          <button type="submit" class="search_icon button" name="button"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
   </form>
 </body>
+
+<footer class="foot">
+  <p>© george-alexandru</p>
+</footer>
 
 </html>
