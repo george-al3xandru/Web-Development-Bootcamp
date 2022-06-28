@@ -5,4 +5,13 @@
 
 Try it yourself: https://calm-eyrie-15044.herokuapp.com/
 
+### After:
+
+![Animations](https://user-images.githubusercontent.com/106253049/176192513-44f1c381-4baf-4f4a-b10c-e919f55bccad.gif)
+
+
+---
+
+### Before:
+
 ![Animations](https://user-images.githubusercontent.com/106253049/176144195-4e3bc721-2b39-44f9-af93-0adfec7a5f71.gif)
