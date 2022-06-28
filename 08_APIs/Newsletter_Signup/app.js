@@ -33,7 +33,7 @@ app.post("/", function(req, res){
   const jsonData = JSON.stringify(data);
 
 // https://mailchimp.com/help/about-api-keys/
-  const apiKey = "b392a97a9b0bc89c056f37c5abece7d0-us18";
+  const apiKey = "bxxxxa9b0bxxxxx56f37xxxxxe7d0-us18";
 // https://mailchimp.com/help/find-audience-id/
   const audienceID = "9ae1a0d8f9";
   const url = "https://us18.api.mailchimp.com/3.0/lists/9ae1a0d8f9";
