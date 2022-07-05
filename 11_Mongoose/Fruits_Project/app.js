@@ -29,5 +29,15 @@ async function main() {
 
   await fruit.save(); // insert one item into the collection
 
-  mongoose.connection.close(); // close the mongoose connection
+  Fruit.find(function(err, fruits){
+    if(err){
+      console.log(err);
+    }else{
+      mongoose.connection.close();
+
+      fruits.forEach(function(fruit){
+        console.log(fruit.name);
+      });
+    }
+  });
 }
