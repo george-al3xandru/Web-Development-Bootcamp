@@ -2,10 +2,10 @@ const {
   MongoClient
 } = require("mongodb");
 
-// Replace the uri string with your MongoDB deployment's connection string.
-const uri = "mongodb://localhost:27017";
+// Replace the url string with your MongoDB deployment's connection string.
+const url = "mongodb://localhost:27017";
 
-const client = new MongoClient(uri, {
+const client = new MongoClient(url, {
   useUnifiedTopology: true
 });
 
