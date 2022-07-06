@@ -9,6 +9,6 @@ https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&log
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
 
-Try it yourself: vast-anchorage-77380.herokuapp.com
+Try it yourself: https://vast-anchorage-77380.herokuapp.com/
 
 ![Animations](https://user-images.githubusercontent.com/106253049/177490740-a9c925dc-35cf-4769-9974-9d76f9eca1c5.gif)
