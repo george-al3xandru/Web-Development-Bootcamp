@@ -11,6 +11,11 @@ https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&log
 
 ---
 
+### Profile menu
+![Animations2](https://user-images.githubusercontent.com/106253049/178116173-f21d6880-88da-40e7-99e7-4c970f1c36d8.gif)
+
+---
+
 ### Google OAuth:
 ![Animations](https://user-images.githubusercontent.com/106253049/178099589-9e19d347-d159-4d9d-a5d8-698548e36e73.gif)
 
