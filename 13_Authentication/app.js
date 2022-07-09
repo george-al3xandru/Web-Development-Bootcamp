@@ -32,6 +32,8 @@ const userSchema = new mongoose.Schema({
   email: String,
   password: String,
   googleId: String,
+  thumbnail: String,
+  username: String,
   secret: String
 });
 
@@ -61,7 +63,12 @@ passport.use(new GoogleStrategy({
   },
   function(accessToken, refreshToken, profile, cb) {
     console.log(profile);
-    User.findOrCreate({googleId: profile.id}, function(err, user) {
+    User.findOrCreate({
+      googleId: profile.id,
+      thumbnail: profile.photos[0].value,
+      username: profile.displayName
+    }, function(err, user) {
+      console.log(user);
       return cb(err, user);
     });
   }
@@ -78,7 +85,9 @@ app.get("/auth/google",
 );
 
 app.get("/auth/google/secrets",
-  passport.authenticate('google', {failureRedirect: "/login"}),
+  passport.authenticate('google', {
+    failureRedirect: "/login"
+  }),
   function(req, res) {
     // Successful authentication, redirect to secrets.
     res.redirect("/secrets");
@@ -92,14 +101,21 @@ app.get("/register", function(req, res) {
   res.render("register");
 });
 
+app.use(function(req, res, next) {
+  res.locals.currentUser = req.user;
+  next();
+})
+
 app.get('/secrets', (req, res) => {
   if (req.isAuthenticated()) {
-    User.find({ secret: { $ne: null } }, function (err, foundUsers) {
+    User.find({secret: {$ne: null}}, function(err, foundUsers) {
       if (err) {
         console.log(err);
       } else {
         if (foundUsers) {
-          res.render('secrets', { usersWithSecrets: foundUsers });
+          res.render('secrets', {
+            usersWithSecrets: foundUsers
+          });
         }
       }
     });
@@ -134,7 +150,9 @@ app.post("/submit", function(req, res) {
 
 app.get('/logout', function(req, res, next) {
   req.logout(function(err) {
-    if (err) { return next(err); }
+    if (err) {
+      return next(err);
+    }
     res.redirect('/');
   });
 });
