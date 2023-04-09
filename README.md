@@ -19,31 +19,31 @@ https://www.udemy.com/certificate/UC-51055eea-d202-48f1-a26e-5cbf481473f2/
 
 ## Project 1: 
 
-Using HTML to create personal site - https://d3schizatorul.github.io/Web-Development-Bootcamp/01_HTML/
+Using HTML to create personal site - https://george-al3xandru.github.io/Web-Development-Bootcamp/01_HTML/
 
 ## Project 2: 
 
-Building website with HTML and CSS - https://d3schizatorul.github.io/Web-Development-Bootcamp/03_CSS_Intermediate/
+Building website with HTML and CSS - https://george-al3xandru.github.io/Web-Development-Bootcamp/03_CSS_Intermediate/
 
 ## Project 3: 
 
-Building website using Bootstrap - https://d3schizatorul.github.io/Web-Development-Bootcamp/04_Bootstrap/
+Building website using Bootstrap - https://george-al3xandru.github.io/Web-Development-Bootcamp/04_Bootstrap/
 
 ## Project 4: 
 
-Dice Game - HTML, CSS, JS - https://d3schizatorul.github.io/Web-Development-Bootcamp/05_JavaScript/Dicee_Challenge
+Dice Game - HTML, CSS, JS - https://george-al3xandru.github.io/Web-Development-Bootcamp/05_JavaScript/Dicee_Challenge
 
 ![Animation](https://user-images.githubusercontent.com/106253049/174560636-71aeb23f-efe4-4e4d-9968-321ba52b3b9f.gif)
 
 ## Project 5: 
 
-Drum Kit - HTML, CSS, JS - https://d3schizatorul.github.io/Web-Development-Bootcamp/05_JavaScript/Drum_Kit
+Drum Kit - HTML, CSS, JS - https://george-al3xandru.github.io/Web-Development-Bootcamp/05_JavaScript/Drum_Kit
 
 ![Animation](https://user-images.githubusercontent.com/106253049/174646740-3a163725-6edc-4b3f-8b7e-3743ffaf1115.gif)
 
 ## Project 6: 
 
-Simon Game - JS, jQuery - https://d3schizatorul.github.io/Web-Development-Bootcamp/06_jQuery/Simon_Game_Challenge/
+Simon Game - JS, jQuery - https://george-al3xandru.github.io/Web-Development-Bootcamp/06_jQuery/Simon_Game_Challenge/
 
 ![Animations](https://user-images.githubusercontent.com/106253049/174775348-c455b21e-07a5-4252-b19b-a8b724e360c7.gif)
 
