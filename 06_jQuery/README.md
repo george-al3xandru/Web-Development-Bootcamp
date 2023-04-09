@@ -6,6 +6,6 @@
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
 ## Application:
-Try it yourself: https://d3schizatorul.github.io/Web-Development-Bootcamp/06_jQuery/Simon_Game_Challenge/
+Try it yourself: https://george-al3xandru.github.io/Web-Development-Bootcamp/06_jQuery/Simon_Game_Challenge/
 
 ![Animations](https://user-images.githubusercontent.com/106253049/174775348-c455b21e-07a5-4252-b19b-a8b724e360c7.gif)
